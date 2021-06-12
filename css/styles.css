@@ -1,0 +1,84 @@
+
+
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+line-height: 2em;
+padding-top: 0px;
+background-color: bisque;
+}
+
+
+/*Submit order*/
+form {
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding: 20px; 
+    background:  whitesmoke;
+    /*text-align: center;*/
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+    margin-right: 7px;
+}
+
+input[type=submit] {
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}    
+
+/*Social*/
+.social {
+bottom:20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.social li {
+    list-style: none;
+}
+.social li a {
+    display: inline-block;
+    margin-right: 20px;
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+footer                      {width:100%;height: 200px;background:#30353D;text-align:center;color:#FFF;padding-top:30px;}
+.social-media               {margin:0 auto;width:200px;}
+
+
+.fa-facebook {
+    color: white;
+}
+.fa-twitter {
+    color: white;
+}
+.fa-instagram{
+    color: white;
+    }
+
+
